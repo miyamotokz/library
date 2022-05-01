@@ -3,7 +3,7 @@
 #define ARRAY_SIZE(a) (sizeof(a)/sizeof(a[0]))  /* 配列のサイズ用マクロ */
 
 /* プロトタイプ宣言 */
-void babble_sort(int[],int);
+void bubble_sort(int[],int);
 void dump(int[],int);
 
 int main()
@@ -31,7 +31,7 @@ void dump(int array[],int size){
     printf("\n");
 }
 /* バブルソート */
-void babble_sort(int array[],int len){
+void bubble_sort(int array[],int len){
     int t;
     for (int i = 0; i < len - 1; i++)
     {
