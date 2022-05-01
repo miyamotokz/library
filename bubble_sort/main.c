@@ -15,7 +15,7 @@ int main()
     }
     size = ARRAY_SIZE(a);
     dump(a, size);          /* ソート前 */
-    babble_sort(a, size);   /* バブルソート */
+    bubble_sort(a, size);   /* バブルソート */
     dump(a, size);          /* ソート後 */
     return 0;
 }
